@@ -1,0 +1,31 @@
+package estrutura_repetitiva;
+
+import java.util.Scanner;
+
+public class Exercicio_for4 {
+
+	public static void main(String[] args) {
+		Scanner vogin = new Scanner(System.in);
+
+		int n = vogin.nextInt();
+
+		for (int i = 0; i < n; i++) {
+
+			System.out.println("Digite um numero: ");
+			int x = vogin.nextInt();
+			if (x == 0) {
+
+				System.out.println(x);
+			} else {
+				for (int j = 1; j > x; i--) {
+
+					int soma = j * x;
+					System.out.println(soma);
+				}
+			}
+		}
+
+		vogin.close();
+	}
+
+}

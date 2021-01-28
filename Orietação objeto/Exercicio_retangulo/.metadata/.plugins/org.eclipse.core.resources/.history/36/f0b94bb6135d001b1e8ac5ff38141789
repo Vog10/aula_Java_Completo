@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.ProductRectangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner vogin =  new Scanner(System.in);
+		
+		// instanciação da variavel com classe 
+		ProductRectangle rectangle =  new ProductRectangle();
+		
+		
+		System.out.println("Enter rectangle width  and height");
+		rectangle.heigth = vogin.nextDouble();
+		System.out.println();
+		rectangle.width = vogin.nextDouble();
+		
+		System.out.println(" teste " + ProductRectangle);
+		
+		
+		
+		
+		
+		vogin.close();
+	}
+
+}

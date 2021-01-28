@@ -1,0 +1,19 @@
+package estrutura_repetitiva;
+
+public class Funcoes_para_String {
+
+	public static void main(String[] args) {
+
+		String original = "abcde FGHIJ ABC abc DEFG ";
+
+		String s01 = original.toLowerCase(); // formatando a STRING em minuscula.
+		System.out.println("original = " + original);
+		System.out.println("tolowerrcase =" + s01); // lowercase ENGLISH = miniscula PORTUGUES.
+		
+		
+		
+
+		
+	}
+
+}

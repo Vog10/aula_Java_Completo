@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/vog/Documentos/Aula completa java/Orietação objeto/Exercicio conversão dolar/.metadata/.plugins/org.eclipse.jdt.core
+2451005316.index
+646308851.index

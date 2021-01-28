@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.Preferences"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="PreferencesExportWizard">
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="/home/vog/Downloads/theme-3.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/vog/Downloads/theme-3.epf"/>
+		</list>
+	</section>
+</section>

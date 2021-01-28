@@ -1,0 +1,45 @@
+package entities;
+
+public class Product {
+//OBJETOS DA CLASSE
+	
+	public String name;
+	public double price;
+	public int quantity;
+	
+	
+	// CONSTRUINDO O CONSTRUTOR
+	
+	public  Product(String name, double price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+		
+	}
+	
+	// FUNÇOES "METODOS" DA DE CALCULO DA CLASSE
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+		// FUNÇOES "METODOS"
+	public void addProducts(int quantity) {
+
+		this.quantity += quantity;
+	}
+	
+	public void removeProducts(int quantity) {
+		
+		this.quantity -= quantity;
+	}
+	// TO STRING!!!!
+	public String toString() {
+
+		return name 
+				+ ", $ "
+				+ String.format("%.2f", price)
+				+ ",  "
+				+ quantity
+				+ " units Total: $ "
+				+ String.format("%.2f",totalValueInStock());
+	}
+}
