@@ -12,9 +12,9 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner vogin = new Scanner(System.in);
 		
-		// instancia  a variavel junto coma a classe.
+		/* instancia  a variavel junto coma a classe.
 		
-		Product p = new Product(); 
+		Product product = new Product(); */
 		
 		// entradas do programa
 		System.out.println("Enter product data: ");

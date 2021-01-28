@@ -12,9 +12,9 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner vogin = new Scanner(System.in);
 		
-		// instancia  a variavel junto coma a classe.
+		/* instancia  a variavel junto coma a classe.
 		
-		Product p = new Product(); 
+		Product product = new Product(); */
 		
 		// entradas do programa
 		System.out.println("Enter product data: ");
@@ -22,15 +22,10 @@ public class Program {
 		String name = vogin.nextLine();
 		System.out.print("Price: ");
 		double price = vogin.nextDouble();
-		/*
-		 * 
-		 * System.out.print("Quantity in stock: ");
-		int quantity = vogin.nextInt(); */
+		System.out.print("Quantity in stock: ");
+		int quantity = vogin.nextInt();
 		
-		
-		
-		// INSTACIAÇÃO DO CONSTRUTOR PARA QUE NÃO CRIE O PRODUTOR VAZIO SEM PREÇO OU NOME!!!
-		Product product = new Product(name,price);
+		Product product = new Product(name,price,quantity);
 		
 		System.out.println();
 		
@@ -40,7 +35,7 @@ public class Program {
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");
 		// entrada e uma definição de uma varivel para metodo 
-		int quantity =  vogin.nextInt();
+		quantity =  vogin.nextInt();
 		product.addProducts(quantity);
 		
 		// saida

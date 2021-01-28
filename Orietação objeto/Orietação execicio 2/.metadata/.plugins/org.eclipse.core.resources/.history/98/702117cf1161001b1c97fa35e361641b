@@ -8,23 +8,12 @@ public class Product {
 	public int quantity;
 	
 	
-	// O CONSTRUTOR PADRÃO
-	public Product() {
-		
-	}
-	
 	// CONSTRUINDO O CONSTRUTOR
 	
 	public  Product(String name, double price, int quantity) {
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
-		
-	}
-	// SOBRECARGA "CONSTRUTOR COM UM CARGA A MAIS = SOBRECARGA"
-	public  Product(String name, double price) {
-		this.name = name;
-		this.price = price;
 		
 	}
 	
