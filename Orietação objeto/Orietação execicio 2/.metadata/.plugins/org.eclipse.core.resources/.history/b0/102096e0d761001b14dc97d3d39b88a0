@@ -27,19 +27,12 @@ public class Program {
 		 * System.out.print("Quantity in stock: ");
 		int quantity = vogin.nextInt(); */
 		
+		
+		
 		// INSTACIAÇÃO DO CONSTRUTOR PARA QUE NÃO CRIE O PRODUTOR VAZIO SEM PREÇO OU NOME!!!
 		Product product = new Product(name,price);
 		
-		// alterando e acessando classe emcapsulada "PRIVATE" 
-		product.setName("Computer");
-		System.out.println("Update name " + product.getName());
-		
-		product.setPrice(1200);
-		System.out.println(" Update price " + product.getPrice());
-		
-		
 		System.out.println();
-		
 		
 		//  saidas do programa com ToString, obs: (product.ToString) tambem!
 		System.out.println("Product data: " + product);

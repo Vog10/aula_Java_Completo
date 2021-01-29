@@ -3,16 +3,9 @@ package entities;
 public class Product {
 //OBJETOS DA CLASSE
 	
-	// OBJETOS COM EMCAPSULAMENTO
-	private String name;
-	private double price;
-	private int quantity;
-	
-	// OBJETOS PUBLICOS SEM EMCAPSULAMENTO
-	/*public String name;
+	public String name;
 	public double price;
-	public int quantity; */
-	
+	public int quantity;
 	
 	
 	// O CONSTRUTOR PADRÃO
@@ -33,29 +26,6 @@ public class Product {
 		this.name = name;
 		this.price = price;
 		
-	}
-	
-	// get para acessar,obter, retorna  o atributo nome.
-	public String getName() {
-		return name;
-	}
-	
-	// alterando valor do meu artributo name
-	public void setName(String name) {
-		
-		this.name = name;
-	}
-	
-	public double getPrice() {
-		return price;
-	}
-	
-	public void setPrice(double price) {
-		this.price =  price;
-		}
-	
-	public int getQuantity() {
-		return quantity;
 	}
 	
 	// FUNÇOES "METODOS" DA DE CALCULO DA CLASSE
