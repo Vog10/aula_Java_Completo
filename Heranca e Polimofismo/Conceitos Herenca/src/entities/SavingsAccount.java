@@ -1,5 +1,9 @@
 package entities;
 
+/* final, Suponha que queria evitar que sejam 
+	cridas subclasses de SavingsAccount , voce utilizar o final para evitar
+		public final class SavingsAccount extends Account */
+
 public class SavingsAccount extends Account {
 
 	private Double interestRare;
@@ -33,4 +37,15 @@ public class SavingsAccount extends Account {
 
 	}
 
+	
+	/*
+	 * final tem a mesma logica da classe. Serve para que nao seja criada uma sobreposicao do metedo
+	public final void withDraw(double amount) {
+
+		balance -= amount;
+
+	}
+
+	 */
+	
 }
