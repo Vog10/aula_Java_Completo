@@ -1,0 +1,43 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		sc.useLocale(Locale.US);
+		Locale.setDefault(Locale.US);
+
+		
+		/// FIZZBUZZ DO HACKRANK
+		
+		System.out.println("digite um numero");
+		int n = 15;
+/		 /// estrutura do metodo
+		for (int i = 1; i <= n; i++) {
+
+			if (i % 5 == 0 && i % 3 == 0) {
+
+				System.out.println("FizzBuzz");
+
+			} else if (i % 3 == 0) {
+				System.out.println("Fizz");
+			} else if (i % 5 == 0) {
+
+				System.out.println("Buzz");
+			}
+			else {
+				System.out.println(i);
+			}
+
+		}
+
+		sc.close();
+	}
+
+}

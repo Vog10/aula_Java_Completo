@@ -1,0 +1,796 @@
+!SESSION 2022-05-22 10:35:33.524 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.3
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-05-22 10:35:49.414
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 10:35:49.414
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d3b6585,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41059616,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-22 10:35:49.414
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e93108a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34e25492,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:15.368
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-06/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:17.699
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:18.397
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:18.665
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-05-22 10:43:19.965
+!MESSAGE No repository found at http://eclipse-color-theme.github.com/update.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:20.006
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.16, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:21.257
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.16/categories, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:22.510
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.16/R-4.16-202006040540/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:24.604
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:25.928
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18/categories, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:27.207
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.18/R-4.18-202012021800/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:28.822
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-06, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:30.043
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-06/202006171000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:48.247
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:49.569
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:51.610
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2020-12/202012101200, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:53.730
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2020-12/202012161000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:57.212
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/updates/milestone/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:43:58.466
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/drops/milestone/S20220504-042715-1.25.0-M2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:44:04.348
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:44:04.432
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:44:04.468
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-color-theme.github.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:44:12.356
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/updates/milestone/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-22 10:44:13.533
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/drops/milestone/S20220504-042715-1.25.0-M2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-05-22 10:44:17.302
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-05-22 10:44:17.303
+!MESSAGE session context was:(profile=_home_vog_snap_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,com.google.gson,2.8.9.v20220111-1409
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.osgi,2.8.0.v20211227-1750
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.sftp,2.8.0.v20211227-1750
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.apache.xerces,2.12.2.v20220131-0835
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.core,3.6.300.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.launching,1.3.200.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.ui,3.8.200.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.303
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.compare,3.8.300.v20220121-1000
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.305
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.databinding,1.11.0.v20220118-1028
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.databinding.observable,1.12.0.v20211231-1006
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.externaltools,1.2.200.v20220125-2302
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.filebuffers,3.7.200.v20220202-1008
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.filesystem,1.9.300.v20220121-1426
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.jobs,3.12.100.v20220120-1329
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.net.linux,1.0.100.v20220111-1854
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.resources,3.16.100.v20220214-1012
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.runtime,3.24.100.v20220211-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.core,3.19.0.v20220125-2302
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.ui,3.16.0.v20220228-0706
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.ui.launchview,1.0.100.v20220121-1856
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.core.commands,1.0.100.v20211204-1536
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.dialogs,1.3.200.v20211210-1500
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.workbench.renderers.swt,0.15.400.v20220308-0630
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.workbench.swt,0.16.400.v20220222-1128
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ecf.provider.filetransfer,3.2.800.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.common,2.24.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.common.ui,2.20.0.v20220226-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.ecore,2.26.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.edit,2.17.0.v20220201-1551
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.edit.ui,2.21.0.v20220226-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.help.ui,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.306
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui.css,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.package.common,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.package.java,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.common,3.16.0.v20220211-2322
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.artifact.repository,1.4.400.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.core,2.9.0.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.director,2.5.200.v20220127-1112
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.director.app,1.2.100.v20211220-1825
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.discovery.compatibility,1.2.200.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.engine,2.7.300.v20220209-1714
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.extensionlocation,1.4.100.v20220213-0541
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.jarprocessor,1.2.200.v20220207-0719
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.publisher,1.7.0.v20220127-1312
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.publisher.eclipse,1.4.2.v20220127-1658
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.reconciler.dropins,1.4.100.v20211217-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.repository,2.6.0.v20220215-0840
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.touchpoint.natives,1.4.300.v20220210-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui,2.7.400.v20220214-1604
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui.sdk,1.2.4.v20220213-1624
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.5.300.v20211214-1242
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.security,1.3.900.v20220108-1321
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.security.ui,1.3.200.v20220115-0654
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.help.base,4.3.600.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.help.webapp,3.10.600.v20220121-1305
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt,3.18.1100.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.compiler.tool,1.3.100.v20211201-1611
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core,3.29.0.v20220214-1307
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core.manipulation,1.16.0.v20220214-0655
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.debug,3.19.100.v20220301-0551
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.debug.ui,3.12.600.v20220226-0801
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.doc.user,3.15.1300.v20220302-1215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.junit,3.14.0.v20220127-1854
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.junit.core,3.11.200.v20220204-2234
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.launching,3.19.500.v20220125-2008
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.ui,3.26.0.v20220222-0629
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jface,3.25.0.v20220218-1636
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.307
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jface.text,3.20.0.v20220218-1549
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.gpg.bc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.http.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache.agent,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.lsp4e,0.13.9.202202021529
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.18.4.20220208-0831
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.19.0.20220206-1032
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.18.3.20220210-1034
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.lemminx,1.18.4.20220127-1634
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.18.0.20220202-1957
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.18.3.20220227-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.17.3.20220111-1313
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.sourcelookup,1.17.5.20220122-2204
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.sourcelookup.ui,1.17.4.20220119-1100
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.ant,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.asciidoc,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.asciidoc.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.confluence,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.confluence.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.help.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.html,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.markdown,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.markdown.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.mediawiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.mediawiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.osgi,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.textile,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.textile.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.tracwiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.tracwiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.twiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.308
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.twiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.osgi,3.17.200.v20220215-2237
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.osgi.compatibility.state,1.2.600.v20220207-1403
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.platform,4.23.0.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.platform.doc.user,4.23.0.v20220302-1425
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.rcp,4.23.0.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.search,3.14.100.v20220120-1549
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.swt,3.119.0.v20220223-1102
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.swt.gtk.linux.x86_64,3.119.0.v20220223-1102
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.team.core,3.9.300.v20220204-0611
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.team.ui,3.9.200.v20211130-1532
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.text.quicksearch,1.1.300.v20211203-1705
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui,3.201.0.v20220124-1108
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.genericeditor,1.2.200.v20211217-1247
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.ide,3.18.500.v20220215-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.ide.application,1.4.300.v20220114-0859
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.monitoring,1.2.100.v20220204-0910
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.navigator.resources,3.8.400.v20220203-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.themes,1.2.1700.v20220210-1145
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.workbench,3.125.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.workbench.texteditor,3.16.400.v20220218-1619
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wildwebdeveloper.xml,0.13.3.202202030858
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.sse.core,1.2.700.v202112071542
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xml.core,1.2.500.v202201311924
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.xtext.xbase.lib,2.26.0.v20220228-0748
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: binary,epp.package.java.executable.gtk.linux.x86_64,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.e4.rcp,4.23.0.v20220308-0630
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.ecf.filetransfer.feature,3.14.1800.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.ecf.filetransfer.httpclient5.feature,1.1.600.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ecf.provider.filetransfer.httpclient5,1.0.300.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.emf.common,2.25.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.emf.ecore,2.27.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.mpc,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.package.common.feature,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.309
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.package.java.feature,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.core.feature,1.6.1300.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.discovery.feature,1.2.1100.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.extras.feature,1.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.rcp.feature,1.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.user.ui,2.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.help,2.3.900.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jdt,3.18.1100.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.gpg.bc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.http.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.ssh.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.20.1.20220227-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.lemminx.feature,1.18.4.20220127-1634
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.wikitext.editors_feature,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.wikitext_feature,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.platform,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: binary,org.eclipse.platform.ide.executable.gtk.linux.x86_64,4.23.0.I20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: binary,org.eclipse.platform_root,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.rcp,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: binary,org.eclipse.rcp_root,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.tips.feature,0.2.1700.v20220220-0850
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.310
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wildwebdeveloper.xml.feature,0.13.3.202202030858
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-05-22 10:44:17.311
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-05-22 10:44:17.311
+!MESSAGE session context was:(profile=_home_vog_snap_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,com.google.gson,2.8.9.v20220111-1409
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.osgi,2.8.0.v20211227-1750
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.sftp,2.8.0.v20211227-1750
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.apache.xerces,2.12.2.v20220131-0835
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.core,3.6.300.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.launching,1.3.200.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ant.ui,3.8.200.v20220214-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.compare,3.8.300.v20220121-1000
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.databinding,1.11.0.v20220118-1028
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.databinding.observable,1.12.0.v20211231-1006
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.externaltools,1.2.200.v20220125-2302
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.filebuffers,3.7.200.v20220202-1008
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.filesystem,1.9.300.v20220121-1426
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.jobs,3.12.100.v20220120-1329
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.net.linux,1.0.100.v20220111-1854
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.resources,3.16.100.v20220214-1012
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.core.runtime,3.24.100.v20220211-2001
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.core,3.19.0.v20220125-2302
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.ui,3.16.0.v20220228-0706
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.debug.ui.launchview,1.0.100.v20220121-1856
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.core.commands,1.0.100.v20211204-1536
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.dialogs,1.3.200.v20211210-1500
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.workbench.renderers.swt,0.15.400.v20220308-0630
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.e4.ui.workbench.swt,0.16.400.v20220222-1128
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ecf.provider.filetransfer,3.2.800.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.common,2.24.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.common.ui,2.20.0.v20220226-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.ecore,2.26.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.edit,2.17.0.v20220201-1551
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.emf.edit.ui,2.21.0.v20220226-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.311
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.help.ui,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui.css,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.package.common,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.package.java,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.common,3.16.0.v20220211-2322
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.artifact.repository,1.4.400.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.core,2.9.0.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.director,2.5.200.v20220127-1112
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.director.app,1.2.100.v20211220-1825
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.discovery.compatibility,1.2.200.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.engine,2.7.300.v20220209-1714
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.extensionlocation,1.4.100.v20220213-0541
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.jarprocessor,1.2.200.v20220207-0719
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.publisher,1.7.0.v20220127-1312
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.publisher.eclipse,1.4.2.v20220127-1658
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.reconciler.dropins,1.4.100.v20211217-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.repository,2.6.0.v20220215-0840
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.touchpoint.natives,1.4.300.v20220210-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui,2.7.400.v20220214-1604
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui.sdk,1.2.4.v20220213-1624
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.5.300.v20211214-1242
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.security,1.3.900.v20220108-1321
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.equinox.security.ui,1.3.200.v20220115-0654
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.help.base,4.3.600.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.help.webapp,3.10.600.v20220121-1305
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt,3.18.1100.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.compiler.tool,1.3.100.v20211201-1611
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core,3.29.0.v20220214-1307
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core.manipulation,1.16.0.v20220214-0655
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.debug,3.19.100.v20220301-0551
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.debug.ui,3.12.600.v20220226-0801
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.doc.user,3.15.1300.v20220302-1215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.junit,3.14.0.v20220127-1854
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.junit.core,3.11.200.v20220204-2234
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.launching,3.19.500.v20220125-2008
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.ui,3.26.0.v20220222-0629
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jface,3.25.0.v20220218-1636
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jface.text,3.20.0.v20220218-1549
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.gpg.bc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.http.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.312
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache.agent,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.lsp4e,0.13.9.202202021529
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.18.4.20220208-0831
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.19.0.20220206-1032
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.18.3.20220210-1034
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.lemminx,1.18.4.20220127-1634
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.18.0.20220202-1957
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.18.3.20220227-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.17.3.20220111-1313
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.sourcelookup,1.17.5.20220122-2204
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.sourcelookup.ui,1.17.4.20220119-1100
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.ant,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.asciidoc,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.asciidoc.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.confluence,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.confluence.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.help.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.html,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.markdown,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.markdown.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.mediawiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.mediawiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.313
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.osgi,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.textile,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.textile.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.tracwiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.tracwiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.twiki,3.0.42.20220107230029
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.twiki.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.wikitext.ui,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.osgi,3.17.200.v20220215-2237
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.osgi.compatibility.state,1.2.600.v20220207-1403
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.platform,4.23.0.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.platform.doc.user,4.23.0.v20220302-1425
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.rcp,4.23.0.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.search,3.14.100.v20220120-1549
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.swt,3.119.0.v20220223-1102
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.swt.gtk.linux.x86_64,3.119.0.v20220223-1102
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.team.core,3.9.300.v20220204-0611
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.team.ui,3.9.200.v20211130-1532
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.text.quicksearch,1.1.300.v20211203-1705
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui,3.201.0.v20220124-1108
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.genericeditor,1.2.200.v20211217-1247
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.ide,3.18.500.v20220215-1304
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.ide.application,1.4.300.v20220114-0859
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.monitoring,1.2.100.v20220204-0910
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.navigator.resources,3.8.400.v20220203-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.themes,1.2.1700.v20220210-1145
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.workbench,3.125.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.314
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ui.workbench.texteditor,3.16.400.v20220218-1619
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wildwebdeveloper.xml,0.13.3.202202030858
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.sse.core,1.2.700.v202112071542
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xml.core,1.2.500.v202201311924
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.xtext.xbase.lib,2.26.0.v20220228-0748
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: binary,epp.package.java.executable.gtk.linux.x86_64,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.e4.rcp,4.23.0.v20220308-0630
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.ecf.filetransfer.feature,3.14.1800.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.ecf.filetransfer.httpclient5.feature,1.1.600.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.ecf.provider.filetransfer.httpclient5,1.0.300.v20220215-0126
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.emf.common,2.25.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.emf.ecore,2.27.0.v20220123-0838
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.mpc,1.9.3.v20220121-1317
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.package.common.feature,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.package.java.feature,4.23.0.20220310-1200
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.core.feature,1.6.1300.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.discovery.feature,1.2.1100.v20220210-1157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.extras.feature,1.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.rcp.feature,1.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.equinox.p2.user.ui,2.4.1500.v20220223-1131
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.help,2.3.900.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jdt,3.18.1100.v20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.315
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.gpg.bc,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.http.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.ssh.apache,6.1.0.202203080745-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.20.1.20220227-1319
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.lemminx.feature,1.18.4.20220127-1634
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.wikitext.editors_feature,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.wikitext_feature,3.0.42.202201072301
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.platform,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: binary,org.eclipse.platform.ide.executable.gtk.linux.x86_64,4.23.0.I20220308-0310
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: binary,org.eclipse.platform_root,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.rcp,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: binary,org.eclipse.rcp_root,4.23.0.v20220308-0722
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.tips.feature,0.2.1700.v20220220-0850
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-05-22 10:44:17.316
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wildwebdeveloper.xml.feature,0.13.3.202202030858
